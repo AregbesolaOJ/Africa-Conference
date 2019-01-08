@@ -115,7 +115,7 @@ html {
 
 /* For Smaller Screen Size */
 
-@media (max-width: 325px) {
+@media (max-width: 775px) {
   .primary {
     background: linear-gradient(to left, rgba(0, 25, 88, 0.2) 0%, #000000 100%),
                 #ffa949 url('../images/Rectangle_mobile.png') no-repeat center;
@@ -144,7 +144,7 @@ html {
   }
   .about button {
     font-size: 16px;
-    padding: 15px 50px;
+    padding: 10px 40px;
     margin: 30px 0 5px;
   }
   .seats {
@@ -152,9 +152,9 @@ html {
     font-size: 16px;
   }
   .header {
-    padding: 5px 15px;
+    padding: 5px;
     text-align: left;
-    font-size: 26px;
+    font-size: 28px;
     line-height: normal;
   }
   .statistics {
@@ -173,14 +173,14 @@ html {
   .cities,
   .speakers,
   .attendees {
-    font-size: 16px;
+    font-size: 20px;
     line-height: normal;
   }
   .countries_value,
   .cities_value,
   .speakers_value,
   .attendees_value {
-    font-size: 38px;
+    font-size: 50px;
   }
 
 }
