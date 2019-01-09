@@ -120,13 +120,13 @@ html {
     background: linear-gradient(to left, rgba(0, 25, 88, 0.2) 0%, #000000 100%),
                 #ffa949 url('../images/Rectangle_mobile.png') no-repeat center;
     background-size: cover;
-    padding-bottom: 5px;
+    padding: 100px 5px 20px;
   }
   .register button {
     display: none;
   }
   .main {
-    margin: 70px 20px 40px;
+    margin: 0 10px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
